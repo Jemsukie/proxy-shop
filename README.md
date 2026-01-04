@@ -18,6 +18,7 @@ The platform will enable Korean customers to:
 - Access customer support and FAQ
 
 **Admins** will have tools to:
+
 - Process proxy buying requests and manage orders
 - Handle shipping and logistics
 - Manage user accounts and wallets
@@ -32,9 +33,11 @@ The platform will enable Korean customers to:
 This project documentation is organized into four main documents:
 
 ### 1. [Project Proposal](./japanese-proxy-shopping-platform.md)
+
 **What it covers:** Complete feature list, project phases, timeline, platform pricing structure, and team structure
 
 **Key Information:**
+
 - Detailed breakdown of all features for users and admins
 - 4-phase development plan (8 weeks / 2 months)
 - Gantt chart showing project timeline
@@ -46,9 +49,11 @@ This project documentation is organized into four main documents:
 ---
 
 ### 2. [Development Requirements & Costing](./development-requirements-and-costing.md)
+
 **What it covers:** Technical infrastructure, hosting requirements, and monthly costs
 
 **Key Information:**
+
 - Server and database requirements
 - Monthly hosting costs breakdown
 - Infrastructure components (storage, email, monitoring)
@@ -58,6 +63,7 @@ This project documentation is organized into four main documents:
 **Best for:** Understanding infrastructure needs and ongoing costs
 
 **Monthly Cost Summary:**
+
 - **Staging Environment:** ~$25–$26/month
 - **Production Environment:** ~$80–$174/month
 - **Total:** ~$105–$200/month (depending on optional services)
@@ -65,9 +71,11 @@ This project documentation is organized into four main documents:
 ---
 
 ### 3. [Development Costing & Support Terms](./development-costing-and-support-terms.md)
+
 **What it covers:** Development costs, payment structure, support terms, and project terms
 
 **Key Information:**
+
 - **Total Development Cost:** $4,000 (based on $1,000 per 2-week phase)
 - Payment structure aligned with 2-week phases
 - 90-day warranty period
@@ -82,9 +90,11 @@ This project documentation is organized into four main documents:
 ---
 
 ### 4. [System Flowcharts](./system-flowcharts.md)
+
 **What it covers:** Visual process diagrams with embedded PlantUML code
 
 **Key Information:**
+
 - User registration and authentication flow
 - Proxy buying request workflow
 - Shipping forwarding process
@@ -101,17 +111,20 @@ This project documentation is organized into four main documents:
 ## 💰 Cost Summary
 
 ### One-Time Development Cost
+
 - **Total:** $4,000 USD (4 phases × $1,000 per 2-week phase)
-- **Payment Structure:** 
+- **Payment Structure:**
   - $1,000 per 2-week phase (aligned with deliverables)
   - OR Custom payment schedule upon agreement
 
 ### Ongoing Monthly Costs (After Launch)
+
 - **Infrastructure/Hosting:** ~$80–$174/month
 - **Email Service:** ~$25–$65/month (depending on volume)
 - **Support:** $25/hour (after free 25 hours)
 
 ### What's NOT Included in Development Cost
+
 - ❌ UI/UX design work (must be provided separately)
 - ❌ Infrastructure and hosting costs
 - ❌ Domain registration and DNS (client responsibility)
@@ -124,12 +137,12 @@ This project documentation is organized into four main documents:
 
 **Total Duration:** 8 Weeks (2 Months)
 
-| Phase | Duration | Key Deliverables |
-|-------|----------|------------------|
-| **Phase 1:** Discovery & Core Development | 2 weeks | Requirements, architecture, authentication, user profiles, product browsing |
-| **Phase 2:** Order System & Admin Panel | 2 weeks | Order requests, admin processing, purchase workflow, notifications |
-| **Phase 3:** Payment & Shipping | 2 weeks | Wallet, currency conversion, shipping forwarding, package management |
-| **Phase 4:** Integration, QA & Launch | 2 weeks | Testing, security, marketplace integration, deployment, monitoring |
+| Phase                                     | Duration | Key Deliverables                                                            |
+| ----------------------------------------- | -------- | --------------------------------------------------------------------------- |
+| **Phase 1:** Discovery & Core Development | 2 weeks  | Requirements, architecture, authentication, user profiles, product browsing |
+| **Phase 2:** Order System & Admin Panel   | 2 weeks  | Order requests, admin processing, purchase workflow, notifications          |
+| **Phase 3:** Payment & Shipping           | 2 weeks  | Wallet, currency conversion, shipping forwarding, package management        |
+| **Phase 4:** Integration, QA & Launch     | 2 weeks  | Testing, security, marketplace integration, deployment, monitoring          |
 
 See the [Project Detailed Proposal](./japanese-proxy-shopping-platform.md) for detailed Gantt chart.
 
@@ -138,6 +151,7 @@ See the [Project Detailed Proposal](./japanese-proxy-shopping-platform.md) for d
 ## ✅ What You'll Get
 
 ### For Users
+
 - Secure login and profile management
 - Product browsing from Japanese marketplaces
 - Proxy buying request system
@@ -148,6 +162,7 @@ See the [Project Detailed Proposal](./japanese-proxy-shopping-platform.md) for d
 - Customer support access
 
 ### For Admins
+
 - Order management and processing tools
 - User account management
 - Payment and wallet administration
@@ -157,6 +172,7 @@ See the [Project Detailed Proposal](./japanese-proxy-shopping-platform.md) for d
 - Customer support tools
 
 ### Technical Deliverables
+
 - Complete source code (RedwoodJS)
 - Production-ready application
 - Deployment scripts and configuration
@@ -169,6 +185,7 @@ See the [Project Detailed Proposal](./japanese-proxy-shopping-platform.md) for d
 ## 🔧 Infrastructure Requirements
 
 The platform will run on:
+
 - **Framework:** RedwoodJS (full-stack JavaScript)
 - **Servers:** DigitalOcean (cloud hosting)
 - **Database:** PostgreSQL (managed database)
@@ -177,6 +194,7 @@ The platform will run on:
 - **CDN:** Cloudflare (for fast content delivery)
 
 **Client Responsibilities:**
+
 - Domain registration and DNS management
 - Providing UI/UX designs before development starts
 - Infrastructure and hosting costs (monthly)
@@ -189,21 +207,25 @@ See [Development Requirements & Costing](./development-requirements-and-costing.
 ## 🛡️ Support & Warranty
 
 ### Warranty Period
+
 - **90 days** post-launch
 - Covers critical bugs and security issues
 - Automatic fixes at no additional cost
 
 ### Free Post-Launch Support
+
 - **25 hours** of free revisions/adjustments
 - Must be used within **60 days** of launch
 - For minor fixes and refinements
 
 ### Ongoing Support
+
 - **$25/hour** after free hours
 - Response times: 4-48 hours (depending on priority)
 - Standard support: Monday-Friday, 9 AM-6 PM
 
 ### Retainer Package
+
 - Single retainer package available
 - Includes 25 free hours (60-day expiry from launch)
 - After free hours: $25/hour ongoing support
@@ -216,15 +238,19 @@ See [Development Costing & Support Terms](./development-costing-and-support-term
 ## 📋 Important Notes
 
 ### Design Requirement
+
 **UI/UX design work is NOT included** in the development scope. Design assets (wireframes, mockups, design system) must be provided by the client or a separate designer **before development begins**.
 
 ### Domain & DNS
+
 **Domain registration and DNS management are client responsibilities.** The developer will provide configuration guidance and assist with setup, but the client must purchase and manage the domain.
 
 ### Payment Gateway
+
 **Payment gateway setup and credentials are client responsibilities.** The developer will integrate the payment system, but the client must provide payment gateway accounts and credentials.
 
 ### Scope Changes
+
 Any changes to the original project scope will be handled through a formal change request process with updated timeline and cost estimates.
 
 ---
@@ -250,15 +276,3 @@ To proceed with this project:
 - **[System Flowcharts](./system-flowcharts.md)** - Visual process diagrams with embedded PlantUML code
 
 ---
-
-## ❓ Questions?
-
-If you have questions about any aspect of this project, please refer to the relevant document above or contact:
-
-**Jemuel Lupo**  
-Technical Lead – E-commerce Platforms & Scalable Web Systems
-
----
-
-*Last Updated: [Current Date]*
-
