@@ -1,0 +1,34 @@
+⚠️No PlantUML server, specify one with "plantuml.server".
+
+@startuml Currency Conversion Flow
+start
+:Scheduled job runs (every hour);
+:Fetch exchange rate from API;
+if (API call successful?) then (no)
+  :Use cached rate;
+  :Log error;
+  :Retry in 15 minutes;
+  stop
+endif
+:Parse JPY/KRW rate;
+:Apply markup (2-3%);
+:Store rate in database;
+:Update Redis cache;
+:Set rate expiry (1 hour);
+if (User requests conversion?) then (yes)
+  :Get current rate from cache;
+  if (Rate expired?) then (yes)
+    :Fetch fresh rate;
+    :Update cache;
+  endif
+  :User enters JPY amount;
+  :Calculate KRW equivalent;
+  :Apply conversion fee;
+  :Display total cost;
+  :User confirms;
+  :Log conversion transaction;
+  :Update wallet;
+  :Notify user;
+endif
+stop
+@enduml

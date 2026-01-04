@@ -1,0 +1,49 @@
+⚠️No PlantUML server, specify one with "plantuml.server".
+
+@startuml Admin Order Processing
+start
+:Admin views order queue;
+:Filter orders by status;
+:Select order to process;
+:Review order details;
+:Verify product information;
+if (Product info valid?) then (no)
+  :Request clarification from user;
+  :Set status: Needs Info;
+  stop
+endif
+:Check product availability;
+if (Product available?) then (no)
+  :Set status: Out of Stock;
+  :Notify user;
+  :Process refund;
+  stop
+endif
+:Verify price;
+if (Price changed?) then (yes)
+  :Notify user of price change;
+  :Request confirmation;
+  if (User confirms?) then (no)
+    :Cancel order;
+    :Refund wallet;
+    stop
+  endif
+endif
+:Approve order;
+:Set status: Processing;
+:Execute purchase on marketplace;
+if (Purchase successful?) then (yes)
+  :Set status: Purchased;
+  :Record purchase details;
+  :Update order with receipt;
+  :Notify user;
+  :Wait for package;
+else (no)
+  :Set status: Purchase Failed;
+  :Log error;
+  :Notify user;
+  :Process refund;
+  :Investigate issue;
+endif
+stop
+@enduml

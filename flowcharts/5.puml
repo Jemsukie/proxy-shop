@@ -1,0 +1,43 @@
+⚠️No PlantUML server, specify one with "plantuml.server".
+
+@startuml Order Tracking Flow
+start
+:Order created;
+:Status: Pending;
+:Notify user;
+:Admin reviews order;
+if (Order approved?) then (yes)
+  :Status: Processing;
+  :Notify user;
+  :Admin executes purchase;
+  if (Purchase successful?) then (yes)
+    :Status: Purchased;
+    :Notify user;
+    :Wait for package;
+    if (Package received?) then (yes)
+      :Status: Package Received;
+      :Notify user;
+      :Admin prepares shipping;
+      :Status: Shipping;
+      :Notify user with tracking;
+      :Monitor shipping;
+      if (Delivered?) then (yes)
+        :Status: Delivered;
+        :Notify user;
+        :Request confirmation;
+        stop
+      endif
+    endif
+  else (no)
+    :Status: Purchase Failed;
+    :Notify user;
+    :Process refund;
+    stop
+  endif
+else (no)
+  :Status: Rejected;
+  :Notify user with reason;
+  stop
+endif
+stop
+@enduml

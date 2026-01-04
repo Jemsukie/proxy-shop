@@ -1,0 +1,45 @@
+⚠️No PlantUML server, specify one with "plantuml.server".
+
+@startuml Proxy Buying Request Flow
+start
+:User browses Japanese marketplace;
+:User finds product;
+:User copies product link;
+:User submits link on platform;
+:Extract product information;
+if (Product info valid?) then (no)
+  :Show error message;
+  :Request manual entry;
+endif
+:Display product details;
+:Show price in JPY and KRW;
+:User confirms order;
+:Calculate total cost;
+:Check wallet balance;
+if (Balance sufficient?) then (no)
+  :Prompt for deposit;
+  stop
+endif
+:Create order request;
+:Set status: Pending;
+:Notify admin;
+:Admin reviews order;
+if (Order approved?) then (no)
+  :Set status: Rejected;
+  :Notify user with reason;
+  stop
+endif
+:Set status: Processing;
+:Admin executes purchase;
+if (Purchase successful?) then (no)
+  :Set status: Failed;
+  :Notify user;
+  :Refund wallet;
+  stop
+endif
+:Set status: Purchased;
+:Update order with purchase details;
+:Notify user;
+:Wait for package arrival;
+stop
+@enduml

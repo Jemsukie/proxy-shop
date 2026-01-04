@@ -1,0 +1,55 @@
+⚠️No PlantUML server, specify one with "plantuml.server".
+
+@startuml Payment & Wallet Flow
+start
+:User navigates to wallet;
+:View current balance;
+if (User wants to deposit?) then (yes)
+  :Select deposit amount (KRW);
+  :Choose payment method;
+  if (Bank transfer?) then (yes)
+    :Show bank details;
+    :User makes transfer;
+    :Admin verifies payment;
+    :Credit wallet;
+  else (Credit card)
+    :Process payment;
+    if (Payment successful?) then (yes)
+      :Credit wallet;
+    else (no)
+      :Show error;
+      stop
+    endif
+  endif
+  :Update transaction history;
+  :Notify user;
+endif
+if (User makes purchase?) then (yes)
+  :Calculate order total (JPY);
+  :Get current exchange rate;
+  :Convert JPY to KRW;
+  :Add service fees;
+  :Check wallet balance;
+  if (Balance sufficient?) then (no)
+    :Prompt for deposit;
+    stop
+  endif
+  :Deduct from wallet;
+  :Create payment transaction;
+  :Update order with payment;
+  :Notify user;
+endif
+if (User requests withdrawal?) then (yes)
+  :Check minimum withdrawal;
+  if (Amount valid?) then (no)
+    :Show error;
+    stop
+  endif
+  :Create withdrawal request;
+  :Admin processes withdrawal;
+  :Transfer funds;
+  :Update transaction history;
+  :Notify user;
+endif
+stop
+@enduml

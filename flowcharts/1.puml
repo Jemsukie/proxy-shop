@@ -1,0 +1,44 @@
+⚠️No PlantUML server, specify one with "plantuml.server".
+
+@startuml User Registration & Authentication
+start
+:User visits registration page;
+:User enters email and password;
+:Validate email format;
+if (Email valid?) then (no)
+  :Show error message;
+  stop
+endif
+:Check if email exists;
+if (Email exists?) then (yes)
+  :Show "Email already registered" error;
+  stop
+endif
+:Validate password strength;
+if (Password valid?) then (no)
+  :Show password requirements;
+  stop
+endif
+:Create user account;
+:Generate verification token;
+:Send verification email;
+:Show "Check email" message;
+:User clicks verification link;
+:Verify token;
+if (Token valid?) then (no)
+  :Show "Invalid link" error;
+  stop
+endif
+:Activate user account;
+:Redirect to login;
+:User enters credentials;
+:Validate credentials;
+if (Credentials valid?) then (no)
+  :Show "Invalid credentials" error;
+  stop
+endif
+:Generate JWT token;
+:Store session;
+:Redirect to dashboard;
+stop
+@enduml

@@ -1,0 +1,39 @@
+⚠️No PlantUML server, specify one with "plantuml.server".
+
+@startuml Shipping Forwarding Flow
+start
+:Package arrives at Japanese address;
+:Receive package notification;
+:Admin verifies package;
+:Capture package photos;
+:Update order status: Package Received;
+:Notify user;
+if (Multiple packages?) then (yes)
+  :Check consolidation request;
+  if (Consolidate?) then (yes)
+    :Wait for all packages;
+    :Consolidate packages;
+  endif
+endif
+:Calculate package weight/dimensions;
+:Calculate shipping costs;
+:User selects shipping method;
+:Generate shipping label;
+:Prepare customs documentation;
+:Update order status: Shipping;
+:Send package via carrier;
+:Update tracking number;
+:Notify user with tracking;
+:Monitor shipping status;
+if (Package delivered?) then (yes)
+  :Update status: Delivered;
+  :Notify user;
+  :Request delivery confirmation;
+  stop
+endif
+if (Customs issue?) then (yes)
+  :Notify user;
+  :Assist with customs;
+endif
+stop
+@enduml

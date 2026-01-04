@@ -1,0 +1,54 @@
+⚠️No PlantUML server, specify one with "plantuml.server".
+
+@startuml System Architecture
+package "Client Layer" {
+  [Web Browser] as Web
+  [Mobile Browser] as Mobile
+}
+
+package "Application Layer" {
+  [RedwoodJS Web] as WebApp
+  [RedwoodJS API] as API
+  [GraphQL] as GraphQL
+  [SSE Server] as SSE
+  [Background Workers] as Workers
+}
+
+package "Data Layer" {
+  database "PostgreSQL" as DB
+  database "Redis" as Redis
+  cloud "DigitalOcean Spaces" as Storage
+}
+
+package "External Services" {
+  [Mercari API] as Mercari
+  [Yahoo Auctions] as Yahoo
+  [Rakuten API] as Rakuten
+  [Amazon Japan] as Amazon
+  [Shipping Carriers] as Shipping
+  [Payment Gateway] as Payment
+  [Email Service] as Email
+  [Exchange Rate API] as Exchange
+}
+
+Web --> WebApp
+Mobile --> WebApp
+WebApp --> API
+API --> GraphQL
+API --> SSE
+GraphQL --> DB
+GraphQL --> Redis
+Workers --> DB
+Workers --> Redis
+Workers --> Storage
+API --> Mercari
+API --> Yahoo
+API --> Rakuten
+API --> Amazon
+Workers --> Shipping
+API --> Payment
+Workers --> Email
+Workers --> Exchange
+SSE --> Web
+SSE --> Mobile
+@enduml
