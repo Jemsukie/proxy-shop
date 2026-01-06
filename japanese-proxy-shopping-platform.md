@@ -487,7 +487,8 @@ The system is designed to ensure scalability, security, and long-term maintainab
 - Technical architecture design
 - Database schema design
 - API integration planning
-- Review and implementation of provided design assets
+- UI/UX design and wireframing using ShadCN (included)
+- Implementation of ShadCN UI components and designs
 - Authentication system (email/password, JWT)
 - Role-based access control (User, Admin roles)
 - User profile management
@@ -542,7 +543,7 @@ The system is designed to ensure scalability, security, and long-term maintainab
 | Payment & Shipping           |        |        |  ████  |        |
 | Integration, QA & Launch     |        |        |        |  ████  |
 
-_Note: Timeline optimized for 2-month delivery. Each phase is 2 weeks at $1,000 per phase._
+_Note: Timeline optimized for 2-month delivery. Payment structure: 50% ($2,000) before start, 50% ($2,000) upon completion._
 
 ---
 
@@ -551,7 +552,7 @@ _Note: Timeline optimized for 2-month delivery. Each phase is 2 weeks at $1,000 
 - **Technical Lead / Architect:** Jemuel Lupo
 - Frontend Developer (RedwoodJS)
 - Backend Developer (RedwoodJS API)
-- UI/UX Designer (if not provided by client)
+- **UI/UX Designer/Developer:** Included (using ShadCN)
 - QA Engineer (phase-based)
 
 _(Team can be scaled depending on timeline urgency)_
@@ -565,7 +566,7 @@ _(Team can be scaled depending on timeline urgency)_
 - **Shipping Carriers:** Shipping carrier accounts and API access must be provided by client.
 - **Currency Exchange:** Real-time exchange rate API access required (client responsibility or third-party service).
 - **Legal Compliance:** Client responsible for compliance with Korean import/export regulations and customs requirements.
-- **Design Assets:** UI/UX designs must be provided before development begins (or arranged separately).
+- **Design Assets:** UI/UX designs using ShadCN are included in the development cost. The developer will create and implement all UI/UX designs using ShadCN components.
 
 ### Database Scalability
 

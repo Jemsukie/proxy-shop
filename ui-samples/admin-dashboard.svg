@@ -1,0 +1,129 @@
+<svg width="1400" height="900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1400" height="900" fill="#fafafa"/>
+  
+  <!-- Sidebar -->
+  <rect x="0" y="0" width="240" height="900" fill="#1f2937"/>
+  <text x="24" y="40" font-family="system-ui" font-size="20" font-weight="600" fill="#ffffff">ProxyShop</text>
+  <text x="24" y="60" font-family="system-ui" font-size="12" fill="#9ca3af">Admin Panel</text>
+  
+  <!-- Sidebar Menu Items -->
+  <rect x="16" y="100" width="208" height="40" rx="6" fill="#3b82f6"/>
+  <text x="32" y="125" font-family="system-ui" font-size="14" fill="#ffffff">📊 Dashboard</text>
+  
+  <rect x="16" y="152" width="208" height="40" rx="6" fill="transparent"/>
+  <text x="32" y="177" font-family="system-ui" font-size="14" fill="#d1d5db">📦 Orders</text>
+  
+  <rect x="16" y="204" width="208" height="40" rx="6" fill="transparent"/>
+  <text x="32" y="229" font-family="system-ui" font-size="14" fill="#d1d5db">👥 Users</text>
+  
+  <rect x="16" y="256" width="208" height="40" rx="6" fill="transparent"/>
+  <text x="32" y="281" font-family="system-ui" font-size="14" fill="#d1d5db">💳 Payments</text>
+  
+  <rect x="16" y="308" width="208" height="40" rx="6" fill="transparent"/>
+  <text x="32" y="333" font-family="system-ui" font-size="14" fill="#d1d5db">📊 Reports</text>
+  
+  <!-- Top Bar -->
+  <rect x="240" y="0" width="1160" height="64" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="264" y="40" font-family="system-ui" font-size="20" font-weight="600" fill="#111827">Dashboard</text>
+  
+  <!-- User Menu -->
+  <circle cx="1320" cy="32" r="16" fill="#3b82f6"/>
+  <text x="1320" y="38" font-family="system-ui" font-size="12" fill="#ffffff" text-anchor="middle">A</text>
+  
+  <!-- Stats Cards -->
+  <rect x="264" y="88" width="280" height="120" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="280" y="116" font-family="system-ui" font-size="12" fill="#6b7280">Total Orders</text>
+  <text x="280" y="148" font-family="system-ui" font-size="36" font-weight="700" fill="#111827">1,234</text>
+  <text x="280" y="172" font-family="system-ui" font-size="12" fill="#10b981">↑ 12% from last month</text>
+  
+  <rect x="560" y="88" width="280" height="120" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="576" y="116" font-family="system-ui" font-size="12" fill="#6b7280">Pending Orders</text>
+  <text x="576" y="148" font-family="system-ui" font-size="36" font-weight="700" fill="#f59e0b">23</text>
+  <text x="576" y="172" font-family="system-ui" font-size="12" fill="#6b7280">Requires attention</text>
+  
+  <rect x="856" y="88" width="280" height="120" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="872" y="116" font-family="system-ui" font-size="12" fill="#6b7280">Revenue (This Month)</text>
+  <text x="872" y="148" font-family="system-ui" font-size="36" font-weight="700" fill="#111827">₩12.5M</text>
+  <text x="872" y="172" font-family="system-ui" font-size="12" fill="#10b981">↑ 8% from last month</text>
+  
+  <rect x="1152" y="88" width="232" height="120" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="1168" y="116" font-family="system-ui" font-size="12" fill="#6b7280">Active Users</text>
+  <text x="1168" y="148" font-family="system-ui" font-size="36" font-weight="700" fill="#111827">456</text>
+  <text x="1168" y="172" font-family="system-ui" font-size="12" fill="#6b7280">This month</text>
+  
+  <!-- Recent Orders Table -->
+  <rect x="264" y="232" width="1120" height="400" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="280" y="264" font-family="system-ui" font-size="18" font-weight="600" fill="#111827">Recent Orders</text>
+  
+  <!-- Table Header -->
+  <rect x="280" y="288" width="1080" height="40" rx="4" fill="#f9fafb"/>
+  <text x="296" y="312" font-family="system-ui" font-size="12" font-weight="600" fill="#374151">Order ID</text>
+  <text x="400" y="312" font-family="system-ui" font-size="12" font-weight="600" fill="#374151">Customer</text>
+  <text x="600" y="312" font-family="system-ui" font-size="12" font-weight="600" fill="#374151">Product</text>
+  <text x="900" y="312" font-family="system-ui" font-size="12" font-weight="600" fill="#374151">Status</text>
+  <text x="1050" y="312" font-family="system-ui" font-size="12" font-weight="600" fill="#374151">Amount</text>
+  
+  <!-- Table Row 1 -->
+  <rect x="280" y="336" width="1080" height="56" fill="#ffffff"/>
+  <text x="296" y="360" font-family="system-ui" font-size="13" fill="#111827">ORD-2024-001</text>
+  <text x="296" y="376" font-family="system-ui" font-size="11" fill="#6b7280">Jan 15, 2024</text>
+  <text x="400" y="360" font-family="system-ui" font-size="13" fill="#111827">김철수</text>
+  <text x="400" y="376" font-family="system-ui" font-size="11" fill="#6b7280">user@example.com</text>
+  <text x="600" y="360" font-family="system-ui" font-size="13" fill="#111827">Vintage Camera</text>
+  <text x="600" y="376" font-family="system-ui" font-size="11" fill="#6b7280">Mercari</text>
+  <rect x="900" y="344" width="80" height="24" rx="4" fill="#dbeafe"/>
+  <text x="940" y="360" font-family="system-ui" font-size="11" fill="#1e40af" text-anchor="middle">Processing</text>
+  <text x="1050" y="360" font-family="system-ui" font-size="13" font-weight="600" fill="#111827" text-anchor="end">¥12,500</text>
+  <line x1="280" y1="392" x2="1360" y2="392" stroke="#f3f4f6" stroke-width="1"/>
+  
+  <!-- Table Row 2 -->
+  <rect x="280" y="400" width="1080" height="56" fill="#ffffff"/>
+  <text x="296" y="424" font-family="system-ui" font-size="13" fill="#111827">ORD-2024-002</text>
+  <text x="296" y="440" font-family="system-ui" font-size="11" fill="#6b7280">Jan 14, 2024</text>
+  <text x="400" y="424" font-family="system-ui" font-size="13" fill="#111827">이영희</text>
+  <text x="400" y="440" font-family="system-ui" font-size="11" fill="#6b7280">user2@example.com</text>
+  <text x="600" y="424" font-family="system-ui" font-size="13" fill="#111827">Designer Jacket</text>
+  <text x="600" y="440" font-family="system-ui" font-size="11" fill="#6b7280">Yahoo Auctions</text>
+  <rect x="900" y="408" width="80" height="24" rx="4" fill="#dcfce7"/>
+  <text x="940" y="424" font-family="system-ui" font-size="11" fill="#166534" text-anchor="middle">Shipped</text>
+  <text x="1050" y="424" font-family="system-ui" font-size="13" font-weight="600" fill="#111827" text-anchor="end">¥8,900</text>
+  <line x1="280" y1="456" x2="1360" y2="456" stroke="#f3f4f6" stroke-width="1"/>
+  
+  <!-- Table Row 3 -->
+  <rect x="280" y="464" width="1080" height="56" fill="#ffffff"/>
+  <text x="296" y="488" font-family="system-ui" font-size="13" fill="#111827">ORD-2024-003</text>
+  <text x="296" y="504" font-family="system-ui" font-size="11" fill="#6b7280">Jan 13, 2024</text>
+  <text x="400" y="488" font-family="system-ui" font-size="13" fill="#111827">박민수</text>
+  <text x="400" y="504" font-family="system-ui" font-size="11" fill="#6b7280">user3@example.com</text>
+  <text x="600" y="488" font-family="system-ui" font-size="13" fill="#111827">Gaming Console</text>
+  <text x="600" y="504" font-family="system-ui" font-size="11" fill="#6b7280">Rakuten</text>
+  <rect x="900" y="472" width="80" height="24" rx="4" fill="#fef3c7"/>
+  <text x="940" y="488" font-family="system-ui" font-size="11" fill="#92400e" text-anchor="middle">Pending</text>
+  <text x="1050" y="488" font-family="system-ui" font-size="13" font-weight="600" fill="#111827" text-anchor="end">¥35,000</text>
+  
+  <!-- Quick Actions -->
+  <rect x="264" y="656" width="1120" height="200" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="280" y="688" font-family="system-ui" font-size="18" font-weight="600" fill="#111827">Quick Actions</text>
+  
+  <rect x="280" y="712" width="200" height="120" rx="8" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="360" y="750" font-family="system-ui" font-size="16" font-weight="600" fill="#111827" text-anchor="middle">Process Order</text>
+  <text x="360" y="770" font-family="system-ui" font-size="12" fill="#6b7280" text-anchor="middle">Review pending orders</text>
+  <text x="360" y="790" font-family="system-ui" font-size="12" fill="#6b7280" text-anchor="middle">23 pending</text>
+  
+  <rect x="500" y="712" width="200" height="120" rx="8" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="600" y="750" font-family="system-ui" font-size="16" font-weight="600" fill="#111827" text-anchor="middle">Manage Users</text>
+  <text x="600" y="770" font-family="system-ui" font-size="12" fill="#6b7280" text-anchor="middle">View user accounts</text>
+  <text x="600" y="790" font-family="system-ui" font-size="12" fill="#6b7280" text-anchor="middle">456 active users</text>
+  
+  <rect x="720" y="712" width="200" height="120" rx="8" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="820" y="750" font-family="system-ui" font-size="16" font-weight="600" fill="#111827" text-anchor="middle">Financial Report</text>
+  <text x="820" y="770" font-family="system-ui" font-size="12" fill="#6b7280" text-anchor="middle">View revenue reports</text>
+  <text x="820" y="790" font-family="system-ui" font-size="12" fill="#6b7280" text-anchor="middle">₩12.5M this month</text>
+  
+  <rect x="940" y="712" width="200" height="120" rx="8" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="1040" y="750" font-family="system-ui" font-size="16" font-weight="600" fill="#111827" text-anchor="middle">Support Tickets</text>
+  <text x="1040" y="770" font-family="system-ui" font-size="12" fill="#6b7280" text-anchor="middle">Handle customer support</text>
+  <text x="1040" y="790" font-family="system-ui" font-size="12" fill="#6b7280" text-anchor="middle">5 open tickets</text>
+</svg>
+

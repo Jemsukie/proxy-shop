@@ -1,0 +1,121 @@
+<svg width="1200" height="900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="900" fill="#fafafa"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="64" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="24" y="40" font-family="system-ui" font-size="20" font-weight="600" fill="#111827">ProxyShop</text>
+  
+  <!-- Search Bar -->
+  <rect x="200" y="16" width="600" height="32" rx="6" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <text x="220" y="36" font-family="system-ui" font-size="14" fill="#9ca3af">Search products from Japanese marketplaces...</text>
+  <rect x="780" y="16" width="80" height="32" rx="6" fill="#3b82f6"/>
+  <text x="820" y="36" font-family="system-ui" font-size="14" fill="#ffffff" text-anchor="middle">Search</text>
+  
+  <!-- Filter Sidebar -->
+  <rect x="24" y="88" width="240" height="788" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="40" y="120" font-family="system-ui" font-size="16" font-weight="600" fill="#111827">Filters</text>
+  
+  <!-- Marketplace Filter -->
+  <text x="40" y="160" font-family="system-ui" font-size="14" font-weight="600" fill="#374151">Marketplace</text>
+  <rect x="40" y="172" width="16" height="16" rx="2" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <text x="64" y="184" font-family="system-ui" font-size="13" fill="#374151">Mercari</text>
+  <rect x="40" y="196" width="16" height="16" rx="2" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <text x="64" y="208" font-family="system-ui" font-size="13" fill="#374151">Yahoo Auctions</text>
+  <rect x="40" y="220" width="16" height="16" rx="2" fill="#3b82f6"/>
+  <text x="64" y="232" font-family="system-ui" font-size="13" fill="#374151">Rakuten</text>
+  <rect x="40" y="244" width="16" height="16" rx="2" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <text x="64" y="256" font-family="system-ui" font-size="13" fill="#374151">Amazon Japan</text>
+  
+  <!-- Price Range -->
+  <text x="40" y="300" font-family="system-ui" font-size="14" font-weight="600" fill="#374151">Price Range</text>
+  <rect x="40" y="312" width="200" height="8" rx="4" fill="#e5e7eb"/>
+  <circle cx="80" cy="316" r="8" fill="#3b82f6"/>
+  <circle cx="200" cy="316" r="8" fill="#3b82f6"/>
+  <text x="40" y="340" font-family="system-ui" font-size="12" fill="#6b7280">¥1,000 - ¥50,000</text>
+  
+  <!-- Category -->
+  <text x="40" y="380" font-family="system-ui" font-size="14" font-weight="600" fill="#374151">Category</text>
+  <rect x="40" y="392" width="16" height="16" rx="2" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <text x="64" y="404" font-family="system-ui" font-size="13" fill="#374151">Electronics</text>
+  <rect x="40" y="416" width="16" height="16" rx="2" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <text x="64" y="428" font-family="system-ui" font-size="13" fill="#374151">Fashion</text>
+  <rect x="40" y="440" width="16" height="16" rx="2" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <text x="64" y="452" font-family="system-ui" font-size="13" fill="#374151">Collectibles</text>
+  
+  <!-- Main Content Area -->
+  <rect x="288" y="88" width="888" height="788" fill="#ffffff" rx="8" stroke="#e5e7eb" stroke-width="1"/>
+  
+  <!-- Results Header -->
+  <text x="312" y="128" font-family="system-ui" font-size="18" font-weight="600" fill="#111827">Search Results</text>
+  <text x="312" y="152" font-family="system-ui" font-size="14" fill="#6b7280">1,234 products found</text>
+  
+  <!-- Sort Dropdown -->
+  <rect x="1000" y="108" width="160" height="36" rx="6" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <text x="1016" y="130" font-family="system-ui" font-size="14" fill="#374151">Sort: Price (Low to High)</text>
+  
+  <!-- Product Grid -->
+  <!-- Product Card 1 -->
+  <rect x="312" y="180" width="200" height="280" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="332" y="200" width="160" height="160" rx="6" fill="#f3f4f6"/>
+  <text x="412" y="290" font-family="system-ui" font-size="40" fill="#9ca3af" text-anchor="middle">📷</text>
+  <text x="332" y="380" font-family="system-ui" font-size="13" font-weight="600" fill="#111827">Vintage Camera</text>
+  <text x="332" y="398" font-family="system-ui" font-size="11" fill="#6b7280">Mercari</text>
+  <text x="332" y="420" font-family="system-ui" font-size="16" font-weight="700" fill="#111827">¥12,500</text>
+  <text x="332" y="438" font-family="system-ui" font-size="12" fill="#6b7280">₩115,000</text>
+  <rect x="332" y="448" width="160" height="32" rx="6" fill="#3b82f6"/>
+  <text x="412" y="468" font-family="system-ui" font-size="13" fill="#ffffff" text-anchor="middle">Request Purchase</text>
+  
+  <!-- Product Card 2 -->
+  <rect x="536" y="180" width="200" height="280" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="556" y="200" width="160" height="160" rx="6" fill="#f3f4f6"/>
+  <text x="636" y="290" font-family="system-ui" font-size="40" fill="#9ca3af" text-anchor="middle">👕</text>
+  <text x="556" y="380" font-family="system-ui" font-size="13" font-weight="600" fill="#111827">Designer Jacket</text>
+  <text x="556" y="398" font-family="system-ui" font-size="11" fill="#6b7280">Yahoo Auctions</text>
+  <text x="556" y="420" font-family="system-ui" font-size="16" font-weight="700" fill="#111827">¥8,900</text>
+  <text x="556" y="438" font-family="system-ui" font-size="12" fill="#6b7280">₩82,000</text>
+  <rect x="556" y="448" width="160" height="32" rx="6" fill="#3b82f6"/>
+  <text x="636" y="468" font-family="system-ui" font-size="13" fill="#ffffff" text-anchor="middle">Request Purchase</text>
+  
+  <!-- Product Card 3 -->
+  <rect x="760" y="180" width="200" height="280" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="780" y="200" width="160" height="160" rx="6" fill="#f3f4f6"/>
+  <text x="860" y="290" font-family="system-ui" font-size="40" fill="#9ca3af" text-anchor="middle">🎮</text>
+  <text x="780" y="380" font-family="system-ui" font-size="13" font-weight="600" fill="#111827">Gaming Console</text>
+  <text x="780" y="398" font-family="system-ui" font-size="11" fill="#6b7280">Rakuten</text>
+  <text x="780" y="420" font-family="system-ui" font-size="16" font-weight="700" fill="#111827">¥35,000</text>
+  <text x="780" y="438" font-family="system-ui" font-size="12" fill="#6b7280">₩322,000</text>
+  <rect x="780" y="448" width="160" height="32" rx="6" fill="#3b82f6"/>
+  <text x="860" y="468" font-family="system-ui" font-size="13" fill="#ffffff" text-anchor="middle">Request Purchase</text>
+  
+  <!-- Product Card 4 -->
+  <rect x="984" y="180" width="200" height="280" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="1004" y="200" width="160" height="160" rx="6" fill="#f3f4f6"/>
+  <text x="1084" y="290" font-family="system-ui" font-size="40" fill="#9ca3af" text-anchor="middle">📚</text>
+  <text x="1004" y="380" font-family="system-ui" font-size="13" font-weight="600" fill="#111827">Manga Collection</text>
+  <text x="1004" y="398" font-family="system-ui" font-size="11" fill="#6b7280">Amazon Japan</text>
+  <text x="1004" y="420" font-family="system-ui" font-size="16" font-weight="700" fill="#111827">¥5,500</text>
+  <text x="1004" y="438" font-family="system-ui" font-size="12" fill="#6b7280">₩50,600</text>
+  <rect x="1004" y="448" width="160" height="32" rx="6" fill="#3b82f6"/>
+  <text x="1084" y="468" font-family="system-ui" font-size="13" fill="#ffffff" text-anchor="middle">Request Purchase</text>
+  
+  <!-- Second Row -->
+  <rect x="312" y="480" width="200" height="280" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="332" y="500" width="160" height="160" rx="6" fill="#f3f4f6"/>
+  <text x="412" y="590" font-family="system-ui" font-size="40" fill="#9ca3af" text-anchor="middle">⌚</text>
+  <text x="332" y="680" font-family="system-ui" font-size="13" font-weight="600" fill="#111827">Vintage Watch</text>
+  <text x="332" y="698" font-family="system-ui" font-size="11" fill="#6b7280">Mercari</text>
+  <text x="332" y="720" font-family="system-ui" font-size="16" font-weight="700" fill="#111827">¥25,000</text>
+  <text x="332" y="738" font-family="system-ui" font-size="12" fill="#6b7280">₩230,000</text>
+  <rect x="332" y="748" width="160" height="32" rx="6" fill="#3b82f6"/>
+  <text x="412" y="768" font-family="system-ui" font-size="13" fill="#ffffff" text-anchor="middle">Request Purchase</text>
+  
+  <!-- Pagination -->
+  <rect x="312" y="800" width="200" height="40" rx="6" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="412" y="825" font-family="system-ui" font-size="14" fill="#374151" text-anchor="middle">Page 1 of 25</text>
+  <rect x="536" y="800" width="80" height="40" rx="6" fill="#f3f4f6"/>
+  <text x="576" y="825" font-family="system-ui" font-size="14" fill="#374151" text-anchor="middle">Previous</text>
+  <rect x="632" y="800" width="80" height="40" rx="6" fill="#3b82f6"/>
+  <text x="672" y="825" font-family="system-ui" font-size="14" fill="#ffffff" text-anchor="middle">Next</text>
+</svg>
+

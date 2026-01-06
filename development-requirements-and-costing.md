@@ -19,8 +19,9 @@
 * **Docker-based deployment**
 * **No Kubernetes** for MVP
 * **DigitalOcean Spaces** used for both **staging and production**
+* **Self-hosted BillionMail** for email (free, or Brevo if client prefers)
 
-This keeps environments consistent and reduces deployment risk.
+This keeps environments consistent and reduces deployment risk while minimizing email service costs.
 
 ---
 
@@ -181,8 +182,13 @@ Estimated cost: **$5–$10/mo**
 
 Domain registration and DNS management are **handled by the client**, not included in development or infrastructure costs.
 
+**Recommended Domain Registrar:**
+* **Namecheap** (recommended) - Reliable, affordable domain registration
+* Client purchases and manages domain through Namecheap
+* Typical cost: **~$10–$15/year** depending on domain extension (.com, .co.kr, etc.)
+
 **Client Requirements:**
-* Domain registration: Client purchases and manages domain
+* Domain registration: Client purchases domain through Namecheap (or preferred registrar)
 * DNS provider: Client configures DNS (Cloudflare, DigitalOcean DNS, or other)
 * DNS records: Client sets up A/CNAME records pointing to production server
 * CDN: Optional - Client may configure Cloudflare or other CDN for static assets
@@ -192,13 +198,13 @@ Domain registration and DNS management are **handled by the client**, not includ
 * Developer will assist with DNS setup guidance
 * SSL certificate setup (Let's Encrypt) will be configured by developer once DNS is ready
 
-**Estimated Client Cost:** **~$10–$15/year** (domain registration) + DNS service (often free with Cloudflare)
+**Estimated Client Cost:** **~$10–$15/year** (domain registration via Namecheap) + DNS service (often free with Cloudflare)
 
 ---
 
 ### 3.8 Email & Notifications
 
-**Brevo (Sendinblue)**
+**Self-Hosted BillionMail (Default - Free)**
 
 Used for:
 
@@ -209,13 +215,19 @@ Used for:
 * Shipping updates
 * Support ticket notifications
 
-**Pricing Tiers:**
+**Setup:**
+* Self-hosted on DigitalOcean Droplet (Docker container)
+* No monthly email service fees
+* Unlimited email sending capacity
+* Cost: **$0** (included in droplet resources)
 
-* Free tier: 300 emails/day
-* Starter: $25/mo (10,000 emails/month)
-* Business: $65/mo (20,000 emails/month)
-
-Estimated cost: **$25–$100/mo** (volume-dependent)
+**Alternative Option: Brevo (Sendinblue)**
+* If client prefers managed email service, Brevo can be used instead
+* Pricing tiers:
+  * Free tier: 300 emails/day
+  * Starter: $25/mo (10,000 emails/month)
+  * Business: $65/mo (20,000 emails/month)
+* Estimated cost if using Brevo: **$25–$100/mo** (volume-dependent)
 
 **Expected Volume:**
 * Average 5-10 emails per order
@@ -362,7 +374,7 @@ Estimated cost: **$25–$100/mo** (volume-dependent)
 | Database | Self-hosted (Docker) | $0 (included) |
 | Redis | Self-hosted (Docker) | $0 (included) |
 | Object Storage | DigitalOcean Spaces (shared) | $2–$3 |
-| Email | Brevo free tier (300/day) | $0 |
+| Email | Self-hosted BillionMail | $0 (included) |
 | SSL | Let's Encrypt (free) | $0 |
 | DockerHub | Unlimited private repos | $11 |
 | **Total Staging** | | **~$25–$26/mo** |
@@ -376,12 +388,12 @@ Estimated cost: **$25–$100/mo** (volume-dependent)
 | Database | Managed PostgreSQL (db-s-2vcpu-4gb) | $15–$25 |
 | Redis | Self-hosted (Docker) | $0 (included) |
 | Object Storage | DigitalOcean Spaces | $5–$10 |
-| Email | Brevo (10K–20K emails/month) | $25–$65 |
+| Email | Self-hosted BillionMail (or Brevo if preferred) | $0 (or $25–$65 if Brevo) |
 | SSL | Let's Encrypt (free) | $0 |
 | DockerHub | Unlimited private repos | $11 |
 | Load Balancer | Optional DO Load Balancer | $0–$12 |
 | Monitoring | DigitalOcean (free) + Optional Sentry | $0–$26 |
-| **Total Production** | | **~$80–$174/mo** |
+| **Total Production** | | **~$55–$149/mo** (or ~$80–$174/mo with Brevo) |
 | Domain & DNS | Client responsibility | N/A |
 
 ### 9.3 Beta Testing (Using Staging)
@@ -397,10 +409,10 @@ Estimated cost: **$25–$100/mo** (volume-dependent)
 | Environment | Low Estimate | High Estimate |
 | ----------- | ------------ | ------------- |
 | Staging | $25 | $26 |
-| Production | $80 | $174 |
-| **Total** | **$105** | **$200** |
+| Production | $55 | $149 |
+| **Total** | **$80** | **$175** |
 
-*Note: High estimate includes optional services (load balancer, advanced monitoring, higher email volume). Base production setup is ~$80–$105/mo.*
+*Note: Low estimate uses self-hosted BillionMail (free). High estimate includes optional services (load balancer, advanced monitoring, Brevo email service if preferred). Base production setup with self-hosted BillionMail is ~$55–$80/mo.*
 
 ---
 
@@ -468,7 +480,7 @@ This setup:
 4. **Cloudflare Free Tier:** Provides CDN, WAF, and DDoS protection at no cost
 5. **Docker Compose:** Simple deployment without Kubernetes complexity
 6. **Beta Testing on Staging:** Minimizes costs while maintaining isolation
-7. **Domain & DNS:** Client responsibility - developer provides configuration guidance
+7. **Domain & DNS:** Client responsibility - Namecheap recommended for domain purchase, developer provides configuration guidance
 
 ### Risk Mitigation
 

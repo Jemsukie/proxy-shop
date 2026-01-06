@@ -11,42 +11,38 @@
 
 ---
 
-## 1. Development Cost (Phase-Based)
+## 1. Development Cost
 
 ### Total Project Cost
 
-**USD $4,000** (4 phases × $1,000 per 2-week phase)
+**USD $4,000**
 
 This covers full development, testing, beta phase, and launch of the Japanese Proxy Shopping Platform.
 
-**Note:** UI/UX design work is **NOT included** in this scope. Design assets, wireframes, and mockups must be provided by the client or a separate designer before development begins.
+**Note:** UI/UX design work using ShadCN is **INCLUDED** in this scope at no additional cost. The developer will create and implement the UI/UX designs using ShadCN components.
 
 ---
 
-### Payment Structure (Phase-Based)
+### Payment Structure (50-50 Split)
 
-The development cost is structured around 2-week phases for better alignment with deliverables:
+The development cost is structured as a 50-50 payment split:
 
-| Phase | Duration | Amount | Due Date |
-|-------|----------|--------|----------|
-| **Phase 1** | Discovery & Core Development | $1,000 | End of Week 2 |
-| **Phase 2** | Order System & Admin Panel | $1,000 | End of Week 4 |
-| **Phase 3** | Payment & Shipping | $1,000 | End of Week 6 |
-| **Phase 4** | Integration, QA & Launch | $1,000 | End of Week 8 |
+| Payment | Amount | Due Date |
+|---------|--------|----------|
+| **Initial Payment** | $2,000 (50%) | Before project start |
+| **Final Payment** | $2,000 (50%) | Upon project completion and acceptance |
 
 **Total:** $4,000 (MVP focus with comprehensive features)
 
-**Alternative Payment Option:** Custom payment schedule available upon agreement (e.g., monthly installments).
-
-> Phase-based payments align with project milestones and provide clear deliverables at each stage.
+> The 50-50 payment structure provides security for both parties: initial payment covers project initiation, and final payment upon completion ensures quality delivery.
 
 ---
 
 ### What's Included in the Development Cost
 
-The phase-based pricing includes all development phases as outlined in the project proposal:
+The pricing includes all development phases as outlined in the project proposal:
 
-**Important:** UI/UX design work is **NOT included**. Design assets (wireframes, mockups, design system) must be provided by the client or a separate designer before development begins.
+**Important:** UI/UX design work using ShadCN is **INCLUDED** at no additional cost. The developer will create and implement the UI/UX designs using ShadCN components.
 
 #### Phase 1: Discovery & Core Development
 * Requirements gathering and analysis
@@ -54,7 +50,8 @@ The phase-based pricing includes all development phases as outlined in the proje
 * Technical architecture design
 * Database schema design
 * API integration planning
-* Review and implementation of provided design assets
+* UI/UX design and wireframing using ShadCN
+* Implementation of ShadCN UI components and designs
 * Authentication system (email/password, JWT)
 * Role-based access control (User, Admin roles)
 * User profile management
@@ -98,6 +95,8 @@ The phase-based pricing includes all development phases as outlined in the proje
 #### Deliverables Included
 * Complete source code repository (GitHub/GitLab)
 * Production-ready application (RedwoodJS)
+* UI/UX design files and wireframes (ShadCN-based)
+* Design system documentation
 * Deployment scripts and Docker configuration
 * Technical documentation
 * API documentation
@@ -217,23 +216,21 @@ Once the 25 free hours are consumed and warranty period expires:
 To ensure clarity, the following are **explicitly excluded** from the development fee:
 
 ### Design & UI/UX
-* ❌ UI/UX design and wireframing
-* ❌ Visual design and mockups
-* ❌ Design system creation
-* ❌ Branding and visual identity
-* ❌ Design asset creation
+* ❌ Branding and visual identity (logo, brand colors, brand guidelines)
+* ❌ Marketing design assets (banners, promotional graphics)
+* ❌ Content creation (copywriting, images, videos)
 
-**Note:** Design work must be completed and provided before development begins. Developer will implement provided designs.
+**Note:** UI/UX design work using ShadCN is **INCLUDED** in the development cost. The developer will create wireframes, mockups, design system, and implement all UI/UX designs using ShadCN components.
 
 ### Infrastructure & Hosting
 * ❌ Server costs (DigitalOcean Droplets, databases, etc.)
 * ❌ Cloud storage costs (DigitalOcean Spaces, S3, etc.)
 * ❌ CDN and DNS services
 * ❌ SSL certificates (though setup is included)
-* ❌ Domain registration
+* ❌ Domain registration (we recommend Namecheap for domain purchase)
 
 ### Third-Party Services
-* ❌ Email service costs (Brevo/Sendinblue, SendGrid, etc.)
+* ❌ Email service costs (if using Brevo instead of self-hosted BillionMail)
 * ❌ Payment gateway costs and transaction fees
 * ❌ Shipping carrier API costs
 * ❌ Currency exchange rate API costs
@@ -242,10 +239,13 @@ To ensure clarity, the following are **explicitly excluded** from the developmen
 * ❌ Third-party software licenses
 
 ### Content & Assets
-* ❌ Content creation (copywriting, images, videos)
-* ❌ Marketing materials
+* ❌ Content creation (copywriting for marketing, blog posts, etc.)
+* ❌ Marketing materials (banners, promotional graphics)
 * ❌ Stock photos or graphics (unless provided)
 * ❌ Product images and descriptions
+* ❌ Branding assets (logo design, brand guidelines)
+
+**Note:** UI/UX design using ShadCN is included. This exclusion refers to marketing content, copywriting, and branding assets.
 
 ### Additional Services
 * ❌ Content migration from existing systems
@@ -269,7 +269,7 @@ To ensure clarity, the following are **explicitly excluded** from the developmen
 
 To ensure clarity:
 
-* ✅ **Development cost ($4,000)** is a **phase-based project fee**
+* ✅ **Development cost ($4,000)** is a **project fee** (50% before start, 50% upon completion)
 * ✅ **90-day warranty** covers critical bugs and security issues
 * ✅ **25 hours of free revisions** for post-launch adjustments (60-day expiry)
 * ✅ **Ongoing support** is billed **separately** on an hourly basis ($25/hour)
@@ -337,7 +337,7 @@ The system is considered production-ready when:
 **Acceptance Timeline:**
 * Client has **7 business days** to review and provide feedback after delivery
 * Any issues found during acceptance testing will be addressed under warranty
-* Sign-off triggers final phase payment
+* Sign-off triggers final payment (50% remaining balance)
 
 ---
 
@@ -419,8 +419,8 @@ These will be scoped and quoted separately based on requirements.
 ## 10. Summary
 
 ### Development Costs
-* **Total Development Cost:** $4,000 (phase-based, $1,000 per 2-week phase)
-* **Payment Structure:** Phase-based payments (4 phases)
+* **Total Development Cost:** $4,000
+* **Payment Structure:** 50-50 split (50% before start, 50% upon completion)
 * **Timeline:** 8 weeks (2 months)
 
 ### Support & Warranty
@@ -431,8 +431,9 @@ These will be scoped and quoted separately based on requirements.
 * **Support Response:** 4-48 hours depending on priority
 
 ### What's Included
-* ✅ Complete development lifecycle (4 phases - design excluded, optimized for 2-month delivery)
-* ✅ Implementation of provided UI/UX designs
+* ✅ Complete development lifecycle (4 phases - UI/UX design included using ShadCN, optimized for 2-month delivery)
+* ✅ UI/UX design and wireframing using ShadCN (included at no additional cost)
+* ✅ Implementation of ShadCN UI components and designs
 * ✅ All features from project proposal
 * ✅ Beta testing and load testing
 * ✅ Full source code and documentation
@@ -440,14 +441,14 @@ These will be scoped and quoted separately based on requirements.
 * ✅ Knowledge transfer and handover
 
 ### What's NOT Included
-* ❌ UI/UX design and wireframing (must be provided by client/designer)
+* ❌ Branding and visual identity (logo, brand colors, brand guidelines)
 * ❌ Infrastructure and hosting costs
 * ❌ Third-party service fees
-* ❌ Content creation and design assets
+* ❌ Content creation (copywriting, marketing materials)
 * ❌ Future enhancements beyond scope
 
 ### Key Terms
-* **Design Requirement:** UI/UX designs must be provided before development begins
+* **Design Included:** UI/UX designs using ShadCN are included in the development cost
 * **Intellectual Property:** Client owns all code and deliverables
 * **Change Management:** Scope changes handled through change request process
 * **Acceptance:** 7 business days for client review and sign-off
@@ -456,9 +457,9 @@ These will be scoped and quoted separately based on requirements.
 
 ---
 
-**Important Note:** This development scope assumes that UI/UX design work (wireframes, mockups, design system) will be completed separately and provided to the developer for implementation. Development timeline may be adjusted if design assets are not ready at project start.
+**Important Note:** UI/UX design work using ShadCN is included in the development cost. The developer will create wireframes, mockups, and implement all UI/UX designs using ShadCN components as part of the development process.
 
-This pricing structure provides predictable costs, phase-based delivery, comprehensive warranty coverage, and flexible long-term support options with a clear retainer package.
+This pricing structure provides predictable costs with a simple 50-50 payment split, comprehensive warranty coverage, and flexible long-term support options with a clear retainer package.
 
 ---
 

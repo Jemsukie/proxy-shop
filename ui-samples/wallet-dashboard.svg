@@ -1,0 +1,79 @@
+<svg width="1000" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1000" height="800" fill="#fafafa"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1000" height="64" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="24" y="40" font-family="system-ui" font-size="20" font-weight="600" fill="#111827">ProxyShop</text>
+  
+  <!-- Main Content -->
+  <rect x="24" y="88" width="952" height="688" rx="12" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  
+  <!-- Title -->
+  <text x="48" y="128" font-family="system-ui" font-size="24" font-weight="600" fill="#111827">My Wallet</text>
+  
+  <!-- Balance Card -->
+  <rect x="48" y="160" width="896" height="180" rx="12" fill="url(#gradient)" stroke="#e5e7eb" stroke-width="1"/>
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <text x="64" y="200" font-family="system-ui" font-size="14" fill="#ffffff" opacity="0.9">Total Balance</text>
+  <text x="64" y="240" font-family="system-ui" font-size="48" font-weight="700" fill="#ffffff">₩125,000</text>
+  <text x="64" y="268" font-family="system-ui" font-size="16" fill="#ffffff" opacity="0.8">¥13,500 JPY</text>
+  <text x="800" y="200" font-family="system-ui" font-size="12" fill="#ffffff" opacity="0.8">Exchange Rate</text>
+  <text x="800" y="220" font-family="system-ui" font-size="14" fill="#ffffff">1 JPY = ₩9.26</text>
+  <text x="800" y="248" font-family="system-ui" font-size="12" fill="#ffffff" opacity="0.8">Last updated: 2 min ago</text>
+  
+  <!-- Quick Actions -->
+  <text x="48" y="380" font-family="system-ui" font-size="18" font-weight="600" fill="#111827">Quick Actions</text>
+  
+  <rect x="48" y="400" width="280" height="120" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="104" cy="460" r="24" fill="#10b981" opacity="0.1"/>
+  <text x="104" y="470" font-family="system-ui" font-size="24" fill="#10b981" text-anchor="middle">+</text>
+  <text x="144" y="450" font-family="system-ui" font-size="16" font-weight="600" fill="#111827">Deposit Funds</text>
+  <text x="144" y="470" font-family="system-ui" font-size="13" fill="#6b7280">Add money to your wallet</text>
+  <text x="144" y="490" font-family="system-ui" font-size="12" fill="#6b7280">Bank transfer or credit card</text>
+  
+  <rect x="344" y="400" width="280" height="120" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="400" cy="460" r="24" fill="#f59e0b" opacity="0.1"/>
+  <text x="400" y="470" font-family="system-ui" font-size="24" fill="#f59e0b" text-anchor="middle">−</text>
+  <text x="440" y="450" font-family="system-ui" font-size="16" font-weight="600" fill="#111827">Withdraw Funds</text>
+  <text x="440" y="470" font-family="system-ui" font-size="13" fill="#6b7280">Transfer to your bank</text>
+  <text x="440" y="490" font-family="system-ui" font-size="12" fill="#6b7280">Min. withdrawal: ₩70,000</text>
+  
+  <rect x="640" y="400" width="280" height="120" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="696" cy="460" r="24" fill="#3b82f6" opacity="0.1"/>
+  <text x="696" y="470" font-family="system-ui" font-size="20" fill="#3b82f6" text-anchor="middle">💱</text>
+  <text x="736" y="450" font-family="system-ui" font-size="16" font-weight="600" fill="#111827">Currency Converter</text>
+  <text x="736" y="470" font-family="system-ui" font-size="13" fill="#6b7280">Convert JPY ↔ KRW</text>
+  <text x="736" y="490" font-family="system-ui" font-size="12" fill="#6b7280">Real-time rates</text>
+  
+  <!-- Transaction History -->
+  <text x="48" y="560" font-family="system-ui" font-size="18" font-weight="600" fill="#111827">Recent Transactions</text>
+  
+  <!-- Transaction 1 -->
+  <rect x="48" y="584" width="896" height="64" rx="6" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="88" cy="616" r="20" fill="#10b981" opacity="0.1"/>
+  <text x="88" y="623" font-family="system-ui" font-size="16" fill="#10b981" text-anchor="middle">+</text>
+  <text x="120" y="608" font-family="system-ui" font-size="14" font-weight="600" fill="#111827">Deposit</text>
+  <text x="120" y="628" font-family="system-ui" font-size="12" fill="#6b7280">Bank Transfer • Jan 15, 2024</text>
+  <text x="800" y="608" font-family="system-ui" font-size="16" font-weight="600" fill="#10b981" text-anchor="end">+₩50,000</text>
+  <text x="800" y="628" font-family="system-ui" font-size="12" fill="#6b7280" text-anchor="end">¥5,400</text>
+  
+  <!-- Transaction 2 -->
+  <rect x="48" y="656" width="896" height="64" rx="6" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="88" cy="688" r="20" fill="#ef4444" opacity="0.1"/>
+  <text x="88" y="695" font-family="system-ui" font-size="16" fill="#ef4444" text-anchor="middle">−</text>
+  <text x="120" y="680" font-family="system-ui" font-size="14" font-weight="600" fill="#111827">Order Payment</text>
+  <text x="120" y="700" font-family="system-ui" font-size="12" fill="#6b7280">Order #ORD-2024-001 • Jan 14, 2024</text>
+  <text x="800" y="680" font-family="system-ui" font-size="16" font-weight="600" fill="#ef4444" text-anchor="end">−₩115,000</text>
+  <text x="800" y="700" font-family="system-ui" font-size="12" fill="#6b7280" text-anchor="end">¥12,500</text>
+  
+  <!-- Transaction 3 -->
+  <rect x="48" y="728" width="896" height="32" rx="6" fill="#f9fafb"/>
+  <text x="120" y="748" font-family="system-ui" font-size="13" fill="#6b7280">View All Transactions →</text>
+</svg>
+

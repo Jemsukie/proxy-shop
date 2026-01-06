@@ -1,0 +1,99 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#fafafa"/>
+  
+  <!-- Header/Navbar -->
+  <rect x="0" y="0" width="1200" height="64" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="24" y="40" font-family="system-ui, -apple-system" font-size="20" font-weight="600" fill="#111827">ProxyShop</text>
+  
+  <!-- Navigation Links -->
+  <rect x="200" y="20" width="80" height="24" rx="4" fill="#f3f4f6"/>
+  <text x="220" y="36" font-family="system-ui" font-size="14" fill="#374151">Browse</text>
+  <rect x="300" y="20" width="80" height="24" rx="4" fill="#f3f4f6"/>
+  <text x="315" y="36" font-family="system-ui" font-size="14" fill="#374151">Orders</text>
+  <rect x="400" y="20" width="80" height="24" rx="4" fill="#f3f4f6"/>
+  <text x="410" y="36" font-family="system-ui" font-size="14" fill="#374151">Wallet</text>
+  
+  <!-- User Menu (Right) -->
+  <circle cx="1120" cy="32" r="16" fill="#3b82f6"/>
+  <text x="1105" y="38" font-family="system-ui" font-size="12" fill="#ffffff" text-anchor="middle">U</text>
+  
+  <!-- Main Content Area -->
+  <rect x="24" y="88" width="1152" height="688" fill="#ffffff" rx="8" stroke="#e5e7eb" stroke-width="1"/>
+  
+  <!-- Welcome Section -->
+  <text x="48" y="128" font-family="system-ui" font-size="24" font-weight="600" fill="#111827">Welcome back!</text>
+  <text x="48" y="156" font-family="system-ui" font-size="14" fill="#6b7280">Track your orders and manage your wallet</text>
+  
+  <!-- Stats Cards Row -->
+  <!-- Wallet Balance Card -->
+  <rect x="48" y="180" width="280" height="120" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="64" y="208" font-family="system-ui" font-size="12" fill="#6b7280">Wallet Balance</text>
+  <text x="64" y="240" font-family="system-ui" font-size="32" font-weight="700" fill="#111827">₩125,000</text>
+  <text x="64" y="260" font-family="system-ui" font-size="12" fill="#6b7280">¥13,500 JPY</text>
+  <rect x="200" y="220" width="100" height="32" rx="6" fill="#3b82f6"/>
+  <text x="245" y="240" font-family="system-ui" font-size="12" fill="#ffffff" text-anchor="middle">Deposit</text>
+  
+  <!-- Active Orders Card -->
+  <rect x="344" y="180" width="280" height="120" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="360" y="208" font-family="system-ui" font-size="12" fill="#6b7280">Active Orders</text>
+  <text x="360" y="240" font-family="system-ui" font-size="32" font-weight="700" fill="#111827">3</text>
+  <text x="360" y="260" font-family="system-ui" font-size="12" fill="#6b7280">In progress</text>
+  <rect x="496" y="220" width="100" height="32" rx="6" fill="#f3f4f6"/>
+  <text x="541" y="240" font-family="system-ui" font-size="12" fill="#374151" text-anchor="middle">View All</text>
+  
+  <!-- Recent Activity Card -->
+  <rect x="640" y="180" width="280" height="120" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="656" y="208" font-family="system-ui" font-size="12" fill="#6b7280">Recent Activity</text>
+  <text x="656" y="240" font-family="system-ui" font-size="32" font-weight="700" fill="#111827">12</text>
+  <text x="656" y="260" font-family="system-ui" font-size="12" fill="#6b7280">This month</text>
+  
+  <!-- Quick Actions -->
+  <text x="48" y="340" font-family="system-ui" font-size="18" font-weight="600" fill="#111827">Quick Actions</text>
+  
+  <rect x="48" y="360" width="180" height="100" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="84" cy="400" r="20" fill="#3b82f6" opacity="0.1"/>
+  <text x="84" y="407" font-family="system-ui" font-size="16" fill="#3b82f6" text-anchor="middle">🛒</text>
+  <text x="120" y="395" font-family="system-ui" font-size="14" font-weight="600" fill="#111827">New Order</text>
+  <text x="120" y="415" font-family="system-ui" font-size="12" fill="#6b7280">Request proxy purchase</text>
+  
+  <rect x="248" y="360" width="180" height="100" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="284" cy="400" r="20" fill="#10b981" opacity="0.1"/>
+  <text x="284" y="407" font-family="system-ui" font-size="16" fill="#10b981" text-anchor="middle">📦</text>
+  <text x="320" y="395" font-family="system-ui" font-size="14" font-weight="600" fill="#111827">Track Package</text>
+  <text x="320" y="415" font-family="system-ui" font-size="12" fill="#6b7280">View shipping status</text>
+  
+  <rect x="448" y="360" width="180" height="100" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="484" cy="400" r="20" fill="#f59e0b" opacity="0.1"/>
+  <text x="484" y="407" font-family="system-ui" font-size="16" fill="#f59e0b" text-anchor="middle">💳</text>
+  <text x="520" y="395" font-family="system-ui" font-size="14" font-weight="600" fill="#111827">Add Funds</text>
+  <text x="520" y="415" font-family="system-ui" font-size="12" fill="#6b7280">Deposit to wallet</text>
+  
+  <!-- Recent Orders Section -->
+  <text x="48" y="500" font-family="system-ui" font-size="18" font-weight="600" fill="#111827">Recent Orders</text>
+  
+  <!-- Order Card 1 -->
+  <rect x="48" y="520" width="1104" height="80" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="64" y="540" width="60" height="60" rx="6" fill="#f3f4f6"/>
+  <text x="94" y="575" font-family="system-ui" font-size="20" fill="#9ca3af" text-anchor="middle">📷</text>
+  <text x="140" y="550" font-family="system-ui" font-size="14" font-weight="600" fill="#111827">Vintage Camera from Mercari</text>
+  <text x="140" y="570" font-family="system-ui" font-size="12" fill="#6b7280">Order #ORD-2024-001</text>
+  <text x="140" y="588" font-family="system-ui" font-size="12" fill="#6b7280">Placed on Jan 15, 2024</text>
+  <rect x="900" y="540" width="80" height="28" rx="4" fill="#dbeafe"/>
+  <text x="940" y="558" font-family="system-ui" font-size="12" fill="#1e40af" text-anchor="middle">Processing</text>
+  <text x="1000" y="550" font-family="system-ui" font-size="16" font-weight="600" fill="#111827">¥12,500</text>
+  <text x="1000" y="570" font-family="system-ui" font-size="12" fill="#6b7280">₩115,000</text>
+  
+  <!-- Order Card 2 -->
+  <rect x="48" y="616" width="1104" height="80" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="64" y="636" width="60" height="60" rx="6" fill="#f3f4f6"/>
+  <text x="94" y="671" font-family="system-ui" font-size="20" fill="#9ca3af" text-anchor="middle">👕</text>
+  <text x="140" y="646" font-family="system-ui" font-size="14" font-weight="600" fill="#111827">Designer Jacket from Yahoo Auctions</text>
+  <text x="140" y="666" font-family="system-ui" font-size="12" fill="#6b7280">Order #ORD-2024-002</text>
+  <text x="140" y="684" font-family="system-ui" font-size="12" fill="#6b7280">Placed on Jan 12, 2024</text>
+  <rect x="900" y="636" width="80" height="28" rx="4" fill="#dcfce7"/>
+  <text x="940" y="654" font-family="system-ui" font-size="12" fill="#166534" text-anchor="middle">Shipped</text>
+  <text x="1000" y="646" font-family="system-ui" font-size="16" font-weight="600" fill="#111827">¥8,900</text>
+  <text x="1000" y="666" font-family="system-ui" font-size="12" fill="#6b7280">₩82,000</text>
+</svg>
+

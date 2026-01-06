@@ -30,7 +30,7 @@ The platform will enable Korean customers to:
 
 ## 📚 Document Overview
 
-This project documentation is organized into four main documents:
+This project documentation is organized into five main documents:
 
 ### 1. [Project Proposal](./japanese-proxy-shopping-platform.md)
 
@@ -65,8 +65,9 @@ This project documentation is organized into four main documents:
 **Monthly Cost Summary:**
 
 - **Staging Environment:** ~$25–$26/month
-- **Production Environment:** ~$80–$174/month
-- **Total:** ~$105–$200/month (depending on optional services)
+- **Production Environment:** ~$55–$149/month (with self-hosted BillionMail)
+- **Total:** ~$80–$175/month (depending on optional services)
+- *Note: Using self-hosted BillionMail (free). Brevo available as optional alternative ($25–$65/month)*
 
 ---
 
@@ -76,8 +77,8 @@ This project documentation is organized into four main documents:
 
 **Key Information:**
 
-- **Total Development Cost:** $4,000 (based on $1,000 per 2-week phase)
-- Payment structure aligned with 2-week phases
+- **Total Development Cost:** $4,000
+- Payment structure: 50-50 split (50% before start, 50% upon completion)
 - 90-day warranty period
 - 25 hours of free post-launch support (60-day expiry)
 - Ongoing support rates ($25/hour)
@@ -108,28 +109,46 @@ This project documentation is organized into four main documents:
 
 ---
 
+### 5. [UI Design Samples](./ui-design-samples.md)
+
+**What it covers:** Preliminary UI/UX mockups, design direction, and visual references
+
+**Key Information:**
+
+- 6 UI/UX sample screens (dashboard, product search, order forms, wallet, tracking, admin)
+- Design principles and color schemes
+- ShadCN component integration approach
+- Layout patterns and responsive design notes
+- Design process and next steps
+
+**Important Note:** These are preliminary mockups for visualization, not final designs. Final implementation will use ShadCN components.
+
+**Best for:** Understanding the visual direction and UI/UX approach
+
+---
+
 ## 💰 Cost Summary
 
 ### One-Time Development Cost
 
-- **Total:** $4,000 USD (4 phases × $1,000 per 2-week phase)
+- **Total:** $4,000 USD
 - **Payment Structure:**
-  - $1,000 per 2-week phase (aligned with deliverables)
-  - OR Custom payment schedule upon agreement
+  - 50% ($2,000) before project start
+  - 50% ($2,000) upon project completion and acceptance
 
 ### Ongoing Monthly Costs (After Launch)
 
-- **Infrastructure/Hosting:** ~$80–$174/month
-- **Email Service:** ~$25–$65/month (depending on volume)
+- **Infrastructure/Hosting:** ~$55–$149/month (with self-hosted BillionMail, or ~$80–$174/month if using Brevo)
+- **Email Service:** $0/month (self-hosted BillionMail) or ~$25–$65/month (if using Brevo)
 - **Support:** $25/hour (after free 25 hours)
 
 ### What's NOT Included in Development Cost
 
-- ❌ UI/UX design work (must be provided separately)
+- ❌ Branding and visual identity (logo, brand colors, brand guidelines)
 - ❌ Infrastructure and hosting costs
 - ❌ Domain registration and DNS (client responsibility)
 - ❌ Third-party service fees (email, APIs, payment processing, etc.)
-- ❌ Content creation and design assets
+- ❌ Content creation (copywriting, marketing materials)
 
 ---
 
@@ -175,6 +194,8 @@ See the [Project Detailed Proposal](./japanese-proxy-shopping-platform.md) for d
 
 - Complete source code (RedwoodJS)
 - Production-ready application
+- UI/UX design files and wireframes (ShadCN-based, included)
+- Design system documentation
 - Deployment scripts and configuration
 - Technical documentation
 - User and admin guides
@@ -190,13 +211,12 @@ The platform will run on:
 - **Servers:** DigitalOcean (cloud hosting)
 - **Database:** PostgreSQL (managed database)
 - **Storage:** DigitalOcean Spaces (for media files)
-- **Email:** Brevo/Sendinblue (for notifications)
+- **Email:** Self-hosted BillionMail (free, or Brevo if client prefers)
 - **CDN:** Cloudflare (for fast content delivery)
 
 **Client Responsibilities:**
 
-- Domain registration and DNS management
-- Providing UI/UX designs before development starts
+- Domain registration and DNS management (we recommend Namecheap for domain purchase)
 - Infrastructure and hosting costs (monthly)
 - Payment gateway setup and credentials
 
@@ -237,13 +257,13 @@ See [Development Costing & Support Terms](./development-costing-and-support-term
 
 ## 📋 Important Notes
 
-### Design Requirement
+### Design Included
 
-**UI/UX design work is NOT included** in the development scope. Design assets (wireframes, mockups, design system) must be provided by the client or a separate designer **before development begins**.
+**UI/UX design work using ShadCN is INCLUDED in the development cost at no additional charge.** The developer will create wireframes, mockups, design system, and implement all UI/UX designs using ShadCN components as part of the development process.
 
 ### Domain & DNS
 
-**Domain registration and DNS management are client responsibilities.** The developer will provide configuration guidance and assist with setup, but the client must purchase and manage the domain.
+**Domain registration and DNS management are client responsibilities.** We recommend purchasing the domain through **Namecheap** (~$10–$15/year). The developer will provide configuration guidance and assist with DNS setup, but the client must purchase and manage the domain.
 
 ### Payment Gateway
 
@@ -261,10 +281,10 @@ To proceed with this project:
 
 1. **Review all documentation** in this folder
 2. **Confirm project scope** and timeline
-3. **Provide UI/UX designs** (or arrange for designer)
-4. **Set up infrastructure accounts** (DigitalOcean, email service, payment gateway, etc.)
-5. **Finalize payment structure** (phase-based payments)
-6. **Sign agreement** and begin Phase 1
+3. **Purchase domain** through Namecheap (recommended, ~$10–$15/year)
+4. **Set up infrastructure accounts** (DigitalOcean, payment gateway, etc.) - Note: Email service will be self-hosted BillionMail (no account needed), or Brevo if preferred
+5. **Finalize payment structure** (50-50 split: 50% before start, 50% upon completion)
+6. **Sign agreement** and begin development
 
 ---
 
@@ -274,5 +294,6 @@ To proceed with this project:
 - **[Development Requirements & Costing](./development-requirements-and-costing.md)** - Infrastructure and hosting details
 - **[Development Costing & Support Terms](./development-costing-and-support-terms.md)** - Costs, payment, and support terms
 - **[System Flowcharts](./system-flowcharts.md)** - Visual process diagrams with embedded PlantUML code
+- **[UI Design Samples](./ui-design-samples.md)** - Preliminary UI/UX mockups and design direction
 
 ---

@@ -1,0 +1,72 @@
+<svg width="1000" height="900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1000" height="900" fill="#fafafa"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1000" height="64" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="24" y="40" font-family="system-ui" font-size="20" font-weight="600" fill="#111827">ProxyShop</text>
+  
+  <!-- Back Button -->
+  <rect x="800" y="16" width="80" height="32" rx="6" fill="#f3f4f6"/>
+  <text x="840" y="36" font-family="system-ui" font-size="14" fill="#374151" text-anchor="middle">← Back</text>
+  
+  <!-- Main Content Card -->
+  <rect x="24" y="88" width="952" height="788" rx="12" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  
+  <!-- Title -->
+  <text x="48" y="128" font-family="system-ui" font-size="24" font-weight="600" fill="#111827">Request Proxy Purchase</text>
+  <text x="48" y="152" font-family="system-ui" font-size="14" fill="#6b7280">Submit a product link from a Japanese marketplace</text>
+  
+  <!-- Product URL Input -->
+  <text x="48" y="200" font-family="system-ui" font-size="14" font-weight="600" fill="#374151">Product URL *</text>
+  <rect x="48" y="212" width="896" height="44" rx="6" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <text x="64" y="238" font-family="system-ui" font-size="14" fill="#9ca3af">https://item.mercari.com/jp/...</text>
+  <rect x="900" y="220" width="28" height="28" rx="4" fill="#3b82f6"/>
+  <text x="914" y="238" font-family="system-ui" font-size="12" fill="#ffffff" text-anchor="middle">✓</text>
+  
+  <!-- Product Preview Card -->
+  <rect x="48" y="280" width="896" height="180" rx="8" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="72" y="304" width="140" height="140" rx="6" fill="#f3f4f6"/>
+  <text x="142" y="380" font-family="system-ui" font-size="40" fill="#9ca3af" text-anchor="middle">📷</text>
+  <text x="232" y="320" font-family="system-ui" font-size="16" font-weight="600" fill="#111827">Vintage Camera - Canon AE-1</text>
+  <text x="232" y="344" font-family="system-ui" font-size="13" fill="#6b7280">Mercari - Used condition</text>
+  <text x="232" y="368" font-family="system-ui" font-size="14" fill="#6b7280">Product ID: m123456789</text>
+  <text x="232" y="392" font-family="system-ui" font-size="20" font-weight="700" fill="#111827">¥12,500</text>
+  <text x="232" y="412" font-family="system-ui" font-size="13" fill="#6b7280">₩115,000 KRW</text>
+  <rect x="800" y="320" width="120" height="36" rx="6" fill="#f3f4f6"/>
+  <text x="860" y="342" font-family="system-ui" font-size="13" fill="#374151" text-anchor="middle">Change Product</text>
+  
+  <!-- Quantity -->
+  <text x="48" y="500" font-family="system-ui" font-size="14" font-weight="600" fill="#374151">Quantity *</text>
+  <rect x="48" y="512" width="200" height="44" rx="6" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <rect x="64" y="524" width="32" height="32" rx="4" fill="#f3f4f6"/>
+  <text x="80" y="544" font-family="system-ui" font-size="18" fill="#374151" text-anchor="middle">−</text>
+  <text x="140" y="544" font-family="system-ui" font-size="16" font-weight="600" fill="#111827" text-anchor="middle">1</text>
+  <rect x="200" y="524" width="32" height="32" rx="4" fill="#f3f4f6"/>
+  <text x="216" y="544" font-family="system-ui" font-size="18" fill="#374151" text-anchor="middle">+</text>
+  
+  <!-- Special Instructions -->
+  <text x="48" y="600" font-family="system-ui" font-size="14" font-weight="600" fill="#374151">Special Instructions</text>
+  <text x="48" y="616" font-family="system-ui" font-size="12" fill="#6b7280">Any special requests or notes for the purchase</text>
+  <rect x="48" y="628" width="896" height="120" rx="6" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+  <text x="64" y="650" font-family="system-ui" font-size="14" fill="#9ca3af">Please check for any scratches or damage...</text>
+  
+  <!-- Cost Breakdown -->
+  <rect x="48" y="780" width="896" height="80" rx="8" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="64" y="808" font-family="system-ui" font-size="14" font-weight="600" fill="#374151">Cost Breakdown</text>
+  <text x="64" y="832" font-family="system-ui" font-size="13" fill="#6b7280">Product Price:</text>
+  <text x="200" y="832" font-family="system-ui" font-size="13" fill="#111827" text-anchor="end">¥12,500</text>
+  <text x="64" y="852" font-family="system-ui" font-size="13" fill="#6b7280">Service Fee (5%):</text>
+  <text x="200" y="852" font-family="system-ui" font-size="13" fill="#111827" text-anchor="end">¥625</text>
+  <line x1="240" y1="840" x2="880" y2="840" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="720" y="832" font-family="system-ui" font-size="16" font-weight="600" fill="#111827">Total:</text>
+  <text x="880" y="832" font-family="system-ui" font-size="18" font-weight="700" fill="#111827" text-anchor="end">¥13,125</text>
+  <text x="880" y="852" font-family="system-ui" font-size="13" fill="#6b7280" text-anchor="end">₩120,750</text>
+  
+  <!-- Action Buttons -->
+  <rect x="680" y="820" width="120" height="44" rx="6" fill="#f3f4f6"/>
+  <text x="740" y="846" font-family="system-ui" font-size="14" fill="#374151" text-anchor="middle">Cancel</text>
+  <rect x="820" y="820" width="120" height="44" rx="6" fill="#3b82f6"/>
+  <text x="880" y="846" font-family="system-ui" font-size="14" fill="#ffffff" text-anchor="middle">Submit Request</text>
+</svg>
+
